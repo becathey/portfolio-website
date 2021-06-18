@@ -49,10 +49,15 @@
     grid-template-areas:
       "bioimage"
       "bio"
-      "job1"
-      "job2"
-      "job3";
+      "skills-title"
+      "skills-fe"
+      "skills-be"
+      "skills-tl";
     grid-template-columns: 1fr;
+  }
+  .skills {
+    align-items: flex-start;
+    text-align: left;
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
