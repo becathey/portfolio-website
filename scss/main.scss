@@ -103,7 +103,8 @@ main {
 // View My Work page
 .projects {
   display: grid;
-  gap: 0.7rem;
+  //   gap: 0.7rem;
+  gap: 30px;
   grid-template-columns: repeat(3, 1fr);
   img {
     width: 100%;
@@ -114,6 +115,21 @@ main {
       @include easeOut;
     }
   }
+}
+.item {
+  background: lighten($primary-color, 5);
+}
+.project-title {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+.project-tech {
+  text-align: center;
+  padding: 0 0.5rem;
+}
+.project-description {
+  padding: 0 0.5rem;
 }
 
 // Contact Me page
