@@ -203,20 +203,27 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
-.item {
-  background: #515151; }
-
 .project-title {
   font-size: 1.25rem;
   text-align: center;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  color: #eece1a;
+  background: #515151; }
 
 .project-tech {
   text-align: center;
-  padding: 0 0.5rem; }
+  margin: 0;
+  padding: 0.5rem;
+  border-top: #fff 2px solid;
+  border-bottom: #fff 2px solid;
+  background: #515151; }
 
 .project-description {
-  padding: 0 0.5rem; }
+  padding: 0.5rem;
+  margin: 0;
+  font-size: 0.9rem;
+  text-align: left;
+  background: #515151; }
 
 .boxes {
   display: flex;
