@@ -1,6 +1,6 @@
 # Responsive Portfolio Website
 
-This project is a responsive portfolio website built with HTML5, CSS3, JavaScript, and SASS.
+This project is a responsive portfolio website built with HTML5, CSS3, JavaScript, and SASS. It includes a JavaScript menu that can be toggled to show/hide.
 
 ## Setup
 
